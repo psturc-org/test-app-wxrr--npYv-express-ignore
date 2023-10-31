@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-python-basic-zfsk
     spec:
       containers:
-      - image: python-image:latest
+      - image: quay.io/psturc_org/build-e2e-wngy-tenant/test-app-wxrr/devfile-sample-python-basic-zfsk@sha256:18d42c3301ad9d843c39995b46b51e5f1c0a4558cb86765e9b1ebea4930694e1
         name: my-python
         ports:
         - containerPort: 8081
